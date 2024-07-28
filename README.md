@@ -1,31 +1,44 @@
-#cirsiumNeuron
+# cirsiumNeuron
 
-cirsiumNeuron is a neuronal circuit simulator that can directly and efficiently compute characterizations of stochastic behavior, i.e., noise, for multi-neuron circuits. It is still in its early stages of development, so beware of bugs!
+cirsiumNeuron is a neuronal circuit simulator that can directly and efficiently compute characterizations of stochastic behavior, i.e., noise, for multi-neuron circuits.
+
+
+## Installation
 
 cirsiumNeuron requires the SUNDIALS suite and the MATLAB interface of SUNDIALS called sundialsTB. In order to install SUNDIALS and sundialsTB, please download SUNDIALS (version 2.6.0), which is available at http://computation.llnl.gov/casc/sundials/main.html, and follow the installation instructions given at the above link. In order to install sundialsTB, within MATLAB, navigate to the sundialsTB subdirectory and run  the script called "install_STB.m". You will need a C compiler that is recognized by MATLAB in order to generate .mex files. The installed sundialsTB and the source code for cirsiumNeuron should be added to the MATLAB path before attempting to use cirsiumNeuron.
 
+
+## Help
+
 Please type "help circuit" in MATLAB for a brief tutorial on how to construct a simple circuit with cirsiumNeuron.
+
+
+## Publications
 
 Please see the papers below for the details of the formulations and techniques implemented in cirsiumNeuron:
 
-Kilinc D, Demir A (2017) Noise in neuronal and electronic circuits: A general modeling framework and non-Monte Carlo simulation techniques. IEEE Transactions on Biomedical Circuits and Systems 11(4):958–974. http://ieeexplore.ieee.org/abstract/document/7938326/
+- Kilinc D, Demir A (2017) Noise in neuronal and electronic circuits: A general modeling framework and non-Monte Carlo simulation techniques. IEEE Transactions on Biomedical Circuits and Systems 11(4):958–974. http://ieeexplore.ieee.org/abstract/document/7938326/
 
-Kilinc D, Demir A (2015) Simulation of noise in neurons and neuronal circuits. In Proceedings of the IEEE/ACM International Conference on
-Computer-Aided Design (ICCAD), IEEE, pp. 589–596. http://ieeexplore.ieee.org/abstract/document/7372623/
+- Kilinc D, Demir A (2015) Simulation of noise in neurons and neuronal circuits. In Proceedings of the IEEE/ACM International Conference on Computer-Aided Design (ICCAD), IEEE, pp. 589–596. http://ieeexplore.ieee.org/abstract/document/7372623/
 
-Mahmutoglu A. G., Demir A. (2013). CIRSIUM: A circuit simulator in MATLAB with object oriented design. In 2013 9th Conference on Ph. D. Research in Microelectronics and Electronics (PRIME), IEEE, pp. 173-176. http://ieeexplore.ieee.org/abstract/document/6603134/
+- Mahmutoglu A. G., Demir A. (2013). CIRSIUM: A circuit simulator in MATLAB with object oriented design. In 2013 9th Conference on Ph. D. Research in Microelectronics and Electronics (PRIME), IEEE, pp. 173-176. http://ieeexplore.ieee.org/abstract/document/6603134/
+
+
+## Spike Timing Precision of Neuronal Circuits
 
 The directory "run_scripts" contains the scripts that were used to generate the results reported in the manuscript below
 
 Title: Spike Timing Precision of Neuronal Circuits
 Authors: Deniz Kilinc, Alper Demir
-accepted for publication by the Journal of Computational Neuroscience
-DOI: 10.1007/s10827-018-0682-z
-Manuscript ID JCNS-D-17-00083R2
- 
+Journal of computational neuroscience, 44, 341-362.
+https://link.springer.com/article/10.1007/s10827-018-0682-z
+
+
+## Contact
+
 For questions please contact Deniz Kilinc: dkilinc@ku.edu.tr
 
----------
-Copyright 2018 by Koc University and Deniz Kilinc, A. Gokcen Mahmutoglu, Alper Demir 
-All Rights Reserved 
----------
+***
+Copyright 2018 by Koc University and Deniz Kilinc, A. Gokcen Mahmutoglu, Alper Demir. 
+All Rights Reserved
+***
